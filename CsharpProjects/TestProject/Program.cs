@@ -51,3 +51,42 @@ string s2 = "Hello";
 Console.WriteLine(s1 != s2); //output: false
 
 */
+
+
+/*
+Exercise - Implement the conditional operator
+<evaluate this condition> ? <if condition is true, return this value> : <if condition is false, return this value>
+
+int saleAmount = 1001;
+int discount = saleAmount > 1000 ? 100 : 50;
+Console.WriteLine($"Discount: {discount}");
+
+int saleAmount = 1001;
+// int discount = saleAmount > 1000 ? 100 : 50;
+
+Console.WriteLine($"Discount: {(saleAmount > 1000 ? 100 : 50)}");
+
+*/
+
+/*Exercise - Complete a challenge activity using conditional operators
+ * Code challenge: write code to display the result of a coin flip
+
+
+Random coin = new Random();//creating a new random obj
+Console.WriteLine((coin.Next(0, 1) == 0) ? "heads" : "tails");//printing out "coin value which is random between 0 or 1 inside the brackets, then is what comes out of the first set of brackets= to 0? if yes, then heads, otherwise tails"
+ */
+
+
+//Exercise - Complete a challenge activity using Boolean expressions
+
+/*
+ * given code
+ */
+
+string permission = "Admin|Manager";
+int level = 55;
+
+if (permission.Contains("Admin") && level >=55)
+{
+    Console.WriteLine("Welcome, Super Admin user.\r\n");
+}
