@@ -115,10 +115,48 @@ else
 */
 
 //Exercise - Code blocks and variable scope
-
+/*
 bool flag = true;
+int value = 0;
+
 if (flag)
 {
-    int value = 10;
+    value = 10;
     Console.WriteLine($"Inside of code block: {value}");
 }
+Console.WriteLine($"Outside of code block: {value}");
+*/
+
+
+//Exercise - Remove code blocks from if statements
+
+//bool flag = true;
+//if (flag)
+//    Console.WriteLine(flag);
+
+//bool flag = true;
+//if (flag) Console.WriteLine(flag);
+
+
+/*
+
+Readability - example 1 not so good:
+
+string name = "steve";
+if (name == "bob") Console.WriteLine("Found Bob");
+else if (name == "steve") Console.WriteLine("Found Steve");
+else Console.WriteLine("Found Chuck");
+
+
+Exmaple 2 - much better:
+
+string name = "steve";
+
+if (name == "bob")
+    Console.WriteLine("Found Bob");
+else if (name == "steve")
+    Console.WriteLine("Found Steve");
+else
+    Console.WriteLine("Found Chuck");
+*/
+
