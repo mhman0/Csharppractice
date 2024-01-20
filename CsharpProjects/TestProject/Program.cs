@@ -80,13 +80,45 @@ Console.WriteLine((coin.Next(0, 1) == 0) ? "heads" : "tails");//printing out "co
 //Exercise - Complete a challenge activity using Boolean expressions
 
 /*
- * given code
+ 
+
+
+string permission = "Admin";
+int level = 55;
+string permission = "Admin";
+int level = 45;
+string permission = "Manager";
+int level = 21;
  */
 
-string permission = "Admin|Manager";
-int level = 55;
+/*
+ * Evaluate Boolean Expressions to Make Decisions in C#
+string permission = "someone";
+int level = 1;
 
 if (permission.Contains("Admin") && level >=55)
 {
     Console.WriteLine("Welcome, Super Admin user.\r\n");
+}
+else if (permission.Contains("Admin") && level <= 55)
+{
+    Console.WriteLine("Welcome, Admin user.\r\n");
+}
+else if (permission.Contains("Manager") && level >= 20)
+{
+    Console.WriteLine("Contact Admin for access.\r\n");
+}
+else
+{
+    Console.WriteLine("You do not have sufficient privileges.");
+}
+*/
+
+//Exercise - Code blocks and variable scope
+
+bool flag = true;
+if (flag)
+{
+    int value = 10;
+    Console.WriteLine($"Inside of code block: {value}");
 }
