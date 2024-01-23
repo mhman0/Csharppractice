@@ -162,7 +162,9 @@ else
 
 
 //Code challenge: update problematic code in the code editor
+// Smaple code supplied at start:
 
+/*
 int[] numbers = { 4, 8, 15, 16, 23, 42 };
 
 foreach (int number in numbers)
@@ -186,3 +188,36 @@ if (found)
 }
 
 Console.WriteLine($"Total: {total}");
+*/
+
+//example of code that works as intended
+/*
+ * 
+ * The biggest changes to the problematic code included:
+
+Moving the declaration of the total and found variables outside of the foreach statement.
+Initializing both the total and found variables with sensible default values.
+Removing the code blocks (curly braces) from the if statements.
+ * 
+ * 
+ * 
+
+int[] numbers = { 4, 8, 15, 16, 23, 42 };
+int total = 0;
+bool found = false;
+
+foreach (int number in numbers)
+{
+    total += number;
+    if (number == 42)
+        found = true;
+}
+
+if (found)
+    Console.WriteLine("Set contains 42");
+
+Console.WriteLine($"Total: {total}");
+
+
+*
+*/
