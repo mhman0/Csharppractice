@@ -75,9 +75,9 @@ class Program
         FlashcardQuiz quiz = new FlashcardQuiz();
 
         // Add flashcards
-        quiz.AddFlashcard("What is the capital of France?", "Paris");
-        quiz.AddFlashcard("What is the largest planet in our solar system?", "Jupiter");
-        quiz.AddFlashcard("What is the powerhouse of the cell?", "Mitochondria");
+        quiz.AddFlashcard("What is the definition of an object in OOP?", "Objects are the basic units of code used to create software applications in OOP languages. All OOP languages use objects to build programs because they're easy to replicate and scale. An object can be any abstract data type that has specific characteristics and functions. For example, a specific user account in an online database is an object. This object has its own unique characteristics and can perform certain functions, like browsing or editing articles.");
+        quiz.AddFlashcard("What is the definition of classes in OOP?", "Classes are the parameters that help a program create objects. While all OOP coding languages support objects, not all of them have classes. Many coding languages support both objects and classes. Each class has its own set of qualifications, and individual objects have unique data for each qualification.");
+        quiz.AddFlashcard("What is an attribute defined as in OOP?", "Attributes are the characteristics of an object that define what it is. Classes determine which attributes an object has. For example, if we consider a class of humans, their attributes might include name, hair color and height. Individual humans, or objects, have unique entries for each attribute field.");
 
         // Start the quiz
         quiz.StartQuiz();
