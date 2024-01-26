@@ -42,6 +42,14 @@ class Program
             {
                 keyInfo = Console.ReadKey(true);
 
+                // Check for escape key to exit the game
+                if (keyInfo.Key == ConsoleKey.Escape)
+                {
+                    // Clear the console and exit the loop
+                    Console.Clear();
+                    break;
+                }
+
                 // Move player left
                 if (keyInfo.Key == ConsoleKey.LeftArrow && playerX > 0)
                 {
@@ -78,6 +86,10 @@ class Program
             // Clear the console for the next frame
             Console.Clear();
         }
+
+        // message when escape key pressed
+        Console.WriteLine("Game stopped. Press any key to exit.");
+        Console.ReadKey();
     }
 
     // Update the game state (e.g., move bullets and asteroids, check for collisions)
