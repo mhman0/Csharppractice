@@ -394,8 +394,75 @@ Console.WriteLine($"Product: {size} {color} {type}");
 //}
 
 
-for (int i =0; i <10; i++)
-{
-    Console.WriteLine(i);
-    if (i == 7) break;
+//for (int i =0; i <10; i++)
+//{
+//    Console.WriteLine(i);
+//    if (i == 7) break;
+//}
+
+
+//using System.Data;
+
+//string[] names = { "Alex", "Eddie", "David", "Michael" };
+//for (int i = names.Length -1; i >=0; i--)
+//{
+//    Console.WriteLine(names[i]);
+//}
+
+
+//string[] names = { "Alex", "Eddie", "David", "Michael" };
+
+//foreach (var name in names)
+//{
+//    // Can't do this:
+//    if (name == "David") name = "Sammy";
+//}
+
+
+////no curly braces
+//string[] names = { "Alex", "Eddie", "David", "Michael" };
+//for (int i = 0; i < names.Length; i++)
+//    if (names[i] == "David") names[i] = "Sammy";
+
+//foreach (var name in names) Console.WriteLine(name);
+
+
+//curly braces
+//string[] names = { "Alex", "Eddie", "David", "Michael" };
+
+//for (int i = 0; i < names.Length; i++)
+//{
+//    if (names[i] == "David")
+//    {
+//        names[i] = "Sammy";
+//    }
+//}
+
+//foreach (var name in names)
+//{
+//    Console.WriteLine(name);
+//}
+
+//FIZZBNUZZ CHALLENGE
+
+//Here are the FizzBuzz rules that you need to implement in your code project:
+
+//Output values from 1 to 100, one number per line, inside the code block of an iteration statement.
+//When the current value is divisible by 3, print the term Fizz next to the number.
+//When the current value is divisible by 5, print the term Buzz next to the number.
+//When the current value is divisible by both 3 and 5, print the term FizzBuzz next to the number.
+
+for(int x = 1; x < 101; x++){
+    if ((x % 3 == 0) && (x % 5==0))
+    {
+        Console.WriteLine(x + " - FizzBuzz");
+    }
+    else if (x % 5 == 0){
+        Console.WriteLine(x + " - Buzz");
+    }else if(x%3==0){
+        Console.WriteLine(x + " - Fizz");
+    }
+    else {
+        Console.WriteLine(x);
+    }
 }
