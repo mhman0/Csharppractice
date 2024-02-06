@@ -452,17 +452,17 @@ Console.WriteLine($"Product: {size} {color} {type}");
 //When the current value is divisible by 5, print the term Buzz next to the number.
 //When the current value is divisible by both 3 and 5, print the term FizzBuzz next to the number.
 
-for(int x = 1; x < 101; x++){
-    if ((x % 3 == 0) && (x % 5==0))
-    {
-        Console.WriteLine(x + " - FizzBuzz");
-    }
-    else if (x % 5 == 0){
-        Console.WriteLine(x + " - Buzz");
-    }else if(x%3==0){
-        Console.WriteLine(x + " - Fizz");
-    }
-    else {
-        Console.WriteLine(x);
-    }
-}
+//for(int x = 1; x < 101; x++){
+//    if ((x % 3 == 0) && (x % 5==0))
+//    {
+//        Console.WriteLine(x + " - FizzBuzz");
+//    }
+//    else if (x % 5 == 0){
+//        Console.WriteLine(x + " - Buzz");
+//    }else if(x%3==0){
+//        Console.WriteLine(x + " - Fizz");
+//    }
+//    else {
+//        Console.WriteLine(x);
+//    }
+//}
