@@ -487,3 +487,4 @@ Console.WriteLine($"Product: {size} {color} {type}");
 //}
 //Console.WriteLine($"Last number: {current}");
 
+Console.WriteLine("Hi Damon!");
