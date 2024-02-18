@@ -487,4 +487,13 @@ Console.WriteLine($"Product: {size} {color} {type}");
 //}
 //Console.WriteLine($"Last number: {current}");
 
-Console.WriteLine("Hi Damon!");
+//Console.WriteLine("Hi Damon!");
+
+
+Random random = new Random();
+int current = 0;
+do
+{
+    current = random.Next(1,11);
+    Console.WriteLine(current);
+}while (current != 7);
