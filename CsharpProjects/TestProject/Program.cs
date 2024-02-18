@@ -490,10 +490,30 @@ Console.WriteLine($"Product: {size} {color} {type}");
 //Console.WriteLine("Hi Damon!");
 
 
+//// Create a new instance of the Random class to generate random numbers
+//Random random = new Random();
+
+//// Initialize a variable 'current' to store the current random number generated
+//int current = 0;
+
+//// Start a do-while loop that will execute at least once
+//do
+//{
+//    // Generate a random number between 1 (inclusive) and 11 (exclusive)
+//    current = random.Next(1, 78);
+
+//    // Print the current random number to the console
+//    Console.WriteLine(current);
+
+//    // Continue looping as long as the current number is not equal to 7
+//} while (current != 77);
+
 Random random = new Random();
-int current = 0;
-do
+int current = random.Next(1, 11);
+
+while(current >= 3)
 {
-    current = random.Next(1,11);
     Console.WriteLine(current);
-}while (current != 7);
+    current = random.Next(1, 11);
+}
+Console.WriteLine($"Last number: {current}");
