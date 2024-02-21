@@ -507,13 +507,33 @@ Console.WriteLine($"Product: {size} {color} {type}");
 
 //    // Continue looping as long as the current number is not equal to 7
 //} while (current != 77);
+//___________________________________________________________________________________________________________
+
+//Random random = new Random();
+//int current = random.Next(1, 11);
+
+//while(current >= 3)
+//{
+//    Console.WriteLine(current);
+//    current = random.Next(1, 11);
+//}
+//Console.WriteLine($"Last number: {current}");
+
+
+//int pay;
 
 Random random = new Random();
-int current = random.Next(1, 11);
+int pay = random.Next(0, 70000);
 
-while(current >= 3)
+if (pay <= 60000)
 {
-    Console.WriteLine(current);
-    current = random.Next(1, 11);
+    Console.WriteLine($"Pay is {pay}!? No way");
 }
-Console.WriteLine($"Last number: {current}");
+else if (pay > 660000)
+{
+    Console.WriteLine($"Ohhh... pay is {pay} whacha say?");
+}
+else
+{
+    Console.Write("nah..");
+}
