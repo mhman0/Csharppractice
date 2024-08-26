@@ -522,18 +522,51 @@ Console.WriteLine($"Product: {size} {color} {type}");
 
 //int pay;
 
-Random random = new Random();
-int pay = random.Next(0, 70000);
+//Random random = new Random();
+//int pay = random.Next(0, 70000);
 
-if (pay <= 60000)
+//if (pay <= 60000)
+//{
+//    Console.WriteLine($"Pay is {pay}!? No way");
+//}
+//else if (pay > 660000)
+//{
+//    Console.WriteLine($"Ohhh... pay is {pay} whacha say?");
+//}
+//else
+//{
+//    Console.Write("nah..");
+//}
+
+
+//Random random = new Random();
+//int current = random.Next(1, 11);
+
+//do
+//{
+//    current = random.Next(1, 11);
+
+//    if (current >= 8) continue;
+
+//    Console.WriteLine(current);
+//} while (current != 7);
+
+int hero = 10;
+int monster = 10;
+
+Random dice = new Random();
+
+do
 {
-    Console.WriteLine($"Pay is {pay}!? No way");
-}
-else if (pay > 660000)
-{
-    Console.WriteLine($"Ohhh... pay is {pay} whacha say?");
-}
-else
-{
-    Console.Write("nah..");
-}
+    int roll = dice.Next(1, 11);
+    monster -= roll;
+    Console.WriteLine($"Monster was damaged and lost {roll} health and now has {monster} health.");
+
+    if (monster <= 0) continue;
+
+    roll = dice.Next(1, 11);
+    hero -= roll;
+    Console.WriteLine($"Hero took damage and lost {roll} health and now has {hero} health");
+} while (hero > 0 && monster > 0);
+
+Console.WriteLine(hero > monster ? "Hero wins!" : "Monster");

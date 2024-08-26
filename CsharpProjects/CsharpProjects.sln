@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calcount", "CalCount\calcount.csproj", "{B66784D9-F0F9-49C4-9465-130D63606FB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{8B2152F3-0670-4900-B73B-D44D60CB4910}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRoids", "CRoids\CRoids.csproj", "{85636DDF-E895-4C99-BD35-D804C21AEC68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flashcard program", "Flashcard program\Flashcard program.csproj", "{F99358C2-FDF1-4700-A751-19134DC5C612}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test questions", "Test questions\Test questions.csproj", "{5F9D0269-B9BD-4AD0-9192-D9833B921C96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "TestProject\TestProject.csproj", "{D6BB58B3-70A4-4457-A2E5-04B78BC3EE14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherApp", "WeatherApp\WeatherApp.csproj", "{1CDC93A3-BF78-4E9E-A775-2578893C2E5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B66784D9-F0F9-49C4-9465-130D63606FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66784D9-F0F9-49C4-9465-130D63606FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66784D9-F0F9-49C4-9465-130D63606FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66784D9-F0F9-49C4-9465-130D63606FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B2152F3-0670-4900-B73B-D44D60CB4910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2152F3-0670-4900-B73B-D44D60CB4910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2152F3-0670-4900-B73B-D44D60CB4910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2152F3-0670-4900-B73B-D44D60CB4910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85636DDF-E895-4C99-BD35-D804C21AEC68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85636DDF-E895-4C99-BD35-D804C21AEC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85636DDF-E895-4C99-BD35-D804C21AEC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85636DDF-E895-4C99-BD35-D804C21AEC68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F99358C2-FDF1-4700-A751-19134DC5C612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99358C2-FDF1-4700-A751-19134DC5C612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99358C2-FDF1-4700-A751-19134DC5C612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99358C2-FDF1-4700-A751-19134DC5C612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9D0269-B9BD-4AD0-9192-D9833B921C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9D0269-B9BD-4AD0-9192-D9833B921C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9D0269-B9BD-4AD0-9192-D9833B921C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9D0269-B9BD-4AD0-9192-D9833B921C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6BB58B3-70A4-4457-A2E5-04B78BC3EE14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6BB58B3-70A4-4457-A2E5-04B78BC3EE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6BB58B3-70A4-4457-A2E5-04B78BC3EE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6BB58B3-70A4-4457-A2E5-04B78BC3EE14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CDC93A3-BF78-4E9E-A775-2578893C2E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDC93A3-BF78-4E9E-A775-2578893C2E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CDC93A3-BF78-4E9E-A775-2578893C2E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CDC93A3-BF78-4E9E-A775-2578893C2E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21DD4BE6-5A0B-4A8B-B69D-934EA0990166}
+	EndGlobalSection
+EndGlobal
